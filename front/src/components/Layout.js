@@ -22,6 +22,9 @@ function Layout() {
           <Button color="inherit" onClick={() => navigate('/')}>
             Users
           </Button>
+          <Button color="inherit" onClick={() => navigate('/dashboard')}>
+            Dashboard
+          </Button>
           <Button color="inherit" onClick={() => navigate('/roles')}>
             Roles
           </Button>
